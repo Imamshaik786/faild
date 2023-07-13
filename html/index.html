@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deccancare</title>
+</head>
+
+<body id="home">
+    <!-- <div class="background"> -->
+<!-- <img src="bg.jpg" alt="bgimg"> -->
+        <nav class=" background navbar  h-nav-res">
+            <ul class="nav-list v-class-res">
+                <div class="logo"><img src="logo.jpg" alt="logo"></div>
+                <li> <a href="#home">HOME</a> </li>
+                <!-- <li> <a href="#about us">ABOUT US</a> </li> -->
+                <li> <a href="#services">SERVICES</a> </li>
+
+                <!-- <li> <a href="#help">HELP</a> </li> -->
+                <li> <a href="#contact us">CONTACT US</a> </li>
+                <!-- <button class="btn">SET APPOINTMENT</button> -->
+                <!-- <button class="btn">CANCEL APPOINTMENT</button> -->
+            </ul>
+            <div class="right-nav v-class-res">
+                <button class="btn" id="myButton">GET APPOINTMENT</button>
+                <div id="myForm" style="display: none;">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="gender">Gender:</label>
+                    Male<input type="radio" id="gender" name="gender" required>
+                   Female <input type="radio" id="gender" name="gender">
+                   Other<input type="radio" id="gender" name="gender"><br><br>
+                
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" id="age" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="phone">Phone:</label>
+                    <input type="integer" id="phone" name="phone" required><br><br>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required><br><br>
+                    <label for="appointment in ">Appointment for:</label>
+                    <select name="appointment" id="appointment in">
+                        <option value="ortho">Orthonolygy</option>
+                        <option value="neuro">Neurology</option>
+                        <option value="ent">ENT</option>
+                        <option value="geneneral">Gneral</option>
+                    </select><br><br>
+                    <label for="branch">Select branch</label>
+                    <select name="branch" id="branch">
+                        <option value="hyd">Care Hyd</option>
+                        <option value="nml">Care Nampally</option>
+                        <option value="drs">Care Darussalam</option>
+                        <option value="chr">Care Dharminar</option>
+                        <option value="banjara">Care Banjarahills</option>
+            
+            
+                    </select><br><br>
+                    <button id="submitBtn" type="submit">Submit</button>
+                    <label for="reset">Reset:</label>
+                    <input type="reset" name="reset" id="reset">
+                </div>
+                <button class="cancel" id="mybutton">CANCEL APPOINTMENT</button>
+                <div id="myform" style="display: none;">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="gender">Gender:</label>
+                    Male<input type="radio" id="gender" name="gender" required>
+                   Female <input type="radio" id="gender" name="gender">
+                   Other<input type="radio" id="gender" name="gender"><br><br>
+                
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" id="age" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="phone">Phone:</label>
+                    <input type="integer" id="phone" name="phone" required><br><br>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required><br><br>
+                    <label for="reason">Reason for Cancelling</label>
+                    <textarea name="reason" id="reason" cols="30" rows="10"></textarea><br><br>     
+                    <button id="SubmitBtn" type="submit">Submit</button>
+                </div>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+
+            </div>
+
+        </nav>
+
+        <section class=" background first-section" id="services">
+            <h1 class="head">... DECCAN CARE HOSIPITALS...</h1>
+            <div class="box-main">
+
+                <div class="firsthalf">
+
+                    <p class="text-small1">
+                        The number 1 hospitals in Hyderabad and Telangana since 1990
+                        a well quqlified doctors. and specialist surgens.
+                        99% successfull operations
+                    </p>
+                    <p class="text-big2">WE ARE SPECIALIST IN </p>
+
+                </div>
+
+
+                <div class="secondhalf">
+                    <img src="cardio.jpg" alt="cardioimg">
+                    <p class="text-big3">...CARDIOTHORACIC SURGERY...</p>
+
+                </div>
+            </div>
+        </section>
+        <section class="secleft">
+            <!-- <h2> NEURO SURGERY</h2> -->
+            <p class="text-big3">
+                NEURO SURGERY
+            </p>
+            <div class="neuro">
+                <img src="neuro.jpg" alt="neuro">
+            </div>
+        </section>
+        <section class="secright">
+            <p class="text-big3">
+                OTOLARYNGOLOGY(ENT)
+            </p>
+            <div class="oto">
+                <img src="ENT.jpg" alt="ent">
+            </div>
+        </section>
+        <section class="secright">
+            <p class="text-big3">
+                GENERAL SURGERY
+            </p>
+            <div class="general">
+                <img src="general.jpg" alt="general">
+            </div>
+        </section>
+        <section class="contact" id="contact us">
+            <h3 class="text-centre">CONTACT US</h3>
+            <div class="form">
+                <input class="form-input" type="text" name="name" id="name" placeholder="enter your name">
+                <input class="form-input" type="text" name="phone" id="phone" placeholder="enter your phone num">
+                <input class="form-input" type="email" name="email" id="email" placeholder="enter your email">
+                <textarea class="form-input" name="text" id="text" cols="15" rows="5"
+                    placeholder="elaborate your concern"></textarea>
+                <button class="btn-dark"> submit</button>
+            </div>
+
+        </section>
+        <footer>
+            <p class="text-footer">
+                copyrights &copy; 2027- www.deccancare.com- All rights reserved
+            </p>
+        </footer>
+        <script src="/jscript/getapt.js"></script>
+        <script src="/jscript/cancapt.js"></script>
+    <script src="/jscript/bcknd.js"></script>
+        
+
+
+    <!-- </div> -->
+</body>
+
+</html>
